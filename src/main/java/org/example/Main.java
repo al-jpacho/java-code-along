@@ -10,6 +10,18 @@ class WeatherData {
         this.temperature = temperature;
         this.humidity = humidity;       
     }
+
+    public String getDatae() {
+        return date;
+    }
+
+    public double getTemperature() {
+        return temperature;
+    }
+
+    public double getHumidity() {
+        return humidity;
+    }
 }
 
 // This is the main class of our Weather Data Analyzer program
