@@ -51,6 +51,12 @@ public class Main {
      */
     public static void basicDataTypesExercise() {
         // TODO: Declare and assign values to variables
+        int dayNumber = 12;
+        double temperature = 28.5;
+        String weatherDescription = "Sunny";
+        System.out.println(dayNumber);
+        System.out.println(temperature);
+        System.out.println(weatherDescription);
     }
 
     /**
