@@ -11,7 +11,7 @@ class WeatherData {
         this.humidity = humidity;       
     }
 
-    public String getDatae() {
+    public String getDate() {
         return date;
     }
 
@@ -113,7 +113,10 @@ public class Main {
      * - Use the getter methods to retrieve the values from the object and print them to the console.
      */
     public static void createWeatherDataObject() {
-        // TODO: Create a WeatherData object and print its values
+        WeatherData weatherData = new WeatherData(date: "2024-06-15", temperature: 32.5, humidity: 75.0);
+        System.out.println("Date: " + weatherData.getDate());
+        System.out.println("Temperature: " + weatherData.getTemperature());
+        System.out.println("Humidity: " + weatherData.getHumidity());
     }
 
     /**
