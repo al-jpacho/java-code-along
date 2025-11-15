@@ -1,7 +1,15 @@
 package org.example;
 
 class WeatherData {
-    // TODO: implement the WeatherData class (see Exercise 2)
+    private String date;
+    private double temperature;
+    private double humidity;
+
+    public WeatherData(String date, double temperature, double humidity) {
+        this.date = date;
+        this.temperature = temperature;
+        this.humidity = humidity;       
+    }
 }
 
 // This is the main class of our Weather Data Analyzer program
