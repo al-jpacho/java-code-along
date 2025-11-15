@@ -50,13 +50,12 @@ public class Main {
      * - Print each of these variables to the console.
      */
     public static void basicDataTypesExercise() {
-        // TODO: Declare and assign values to variables
         int dayNumber = 12;
         double temperature = 28.5;
         String weatherDescription = "Sunny";
-        System.out.println(dayNumber);
-        System.out.println(temperature);
-        System.out.println(weatherDescription);
+        System.out.println("Day number: " + dayNumber);
+        System.out.println("Temperature: " + temperature);
+        System.out.println("Weather description:: " + weatherDescription);
     }
 
     /**
@@ -80,6 +79,7 @@ public class Main {
      */
     public static void createWeatherDataClass() {
         // TODO: Implement the WeatherData class above
+        
     }
 
     /**
